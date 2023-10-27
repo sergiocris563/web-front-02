@@ -5,5 +5,9 @@ const card = document.querySelector(".card");
 
 // criando funções
 tirarDiv.addEventListener("click", function() {
-    alert("testeee");
+    card.style.display = "none";
+})
+
+voltarDiv.addEventListener("click", function() {
+    card.style.display = "block";
 })
